@@ -473,7 +473,7 @@ color: #FFFFFF;
 
    
    /* media query for mobile  */
-   @media only screen and (max-width:760px) {
+   @media only screen and (min-width:50em) {
     #hero .hero {
         background-color: #fff;
       
@@ -481,7 +481,7 @@ color: #FFFFFF;
     #hero .Rectangle img{
    
         height: 710px;
-    width: 150%;
+    width: 00%;
     margin-left: -220px;
     }
     #hero .text-box h1  {
