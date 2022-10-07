@@ -1,0 +1,698 @@
+* {
+    padding: 0;
+    margin: 0;
+    width: 95;
+    font-family: 'Big Shoulders Display', cursive;
+}
+/* Hero section  */
+#hero .hero {
+    padding: 19rem 0;
+    display: grid;
+  width: 30%;
+  margin-left: 1x;
+  height: 103px;
+    background-color: #151515;
+}
+#hero .text-box h1  {
+   color: #fff;
+   font-size: 85px;
+   position: absolute;
+height: 176px;
+left: 13.50%;
+
+top: 120px;
+
+font-style: normal;
+font-weight: 900;
+font-size: 96px;
+line-height: 88px;
+text-transform: uppercase;
+}
+#hero .text-box h1 span {
+    color: black;
+    margin-left: .5rem;
+    
+}
+
+#hero .Rectangle {
+    position: absolute;
+
+
+margin-left: 30%;
+margin-top: -710px;
+
+}
+#hero .Rectangle img {
+    height: 710px;
+    width: 125%;
+}
+#hero .grafh p {
+    position: absolute;
+height: 160px;
+left: 64.55%;
+
+top: calc(50% - 160px/2 - 130px);
+
+
+
+
+font-style: normal;
+font-weight: 300;
+font-size: 35px;
+line-height: 40px;
+
+
+
+color: #444444;
+}
+#hero .button .btn {
+    position: absolute;
+width: 250px;
+height: 72px;
+left: 925px;
+top: 414px;
+background-color: #151515;
+color: #fff;
+font-size: 32px;
+margin-left: 2rem;
+cursor: pointer;
+border-radius: 3px;
+}
+#hero .button .btn:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    background-color: #D5966C;
+}
+
+
+ /* End hero section  */
+ /* second section  */
+ .heading {
+    position: absolute;
+height: 120px;
+left: 0%;
+margin-left: 15%;
+margin-top: 350px;
+font-style: normal;
+font-weight: 900;
+font-size: 65px;
+line-height: 68px;
+
+text-transform: uppercase;
+color: #151515;
+}
+.wander {
+    position: absolute;
+height: 128px;
+left: 0%;
+margin-left: 15%;
+margin-top: 33.2%;
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 32px;
+color: #444444;
+}
+.living {
+    position: absolute;
+width: 635px;
+height: 400px;
+left: 640px;
+top: 980px;
+}
+.coc {
+    position: absolute;
+width: 635px;
+height: 660px;
+left: 165px;
+top: 1410px;
+}
+.joke {
+    position: absolute;
+width: 445px;
+height: 313px;
+left: 830px;
+top: 1410px;
+}
+.bg-color {
+    position: absolute;
+width: 445px;
+height: 320px;
+left: 830px;
+top: 1753px;
+
+
+
+background: #151515;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.inspire {
+    position: absolute;
+height: 120px;
+left: 0%;
+margin-top: 4.1rem;
+margin-left: 4rem;
+font-style: normal;
+font-weight: 900;
+font-size: 55px;
+line-height: 60px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+
+.excited {
+    position: absolute;
+height: 96px;
+left: 0%;
+margin-left: 4rem;
+margin-top: 12.5rem;
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 32px;
+color: #FFFFFF;
+}
+ /* End second section  */
+ /* footer section  */
+
+ .bg-black {
+    position: absolute;
+width: 1519px;
+height: 244px;
+left: 0px;
+
+top: 2310px;
+
+
+background: #151515;
+ }
+
+ .modren {
+    position: absolute;
+left: 0%;
+margin-left: 10rem;
+margin-top: 5rem;
+font-size: 45px;
+top: 0%;
+bottom: 30.95%;
+
+
+
+color: #FFFFFF;
+ }
+ .king {
+    position: absolute;
+height: 84px;
+left: 41.1%;
+margin-top: 5.8rem;
+font-style: normal;
+font-weight: 300;
+font-size: 21px;
+line-height: 28px;
+color: #FFFFFF;
+
+ }
+ .facebook {
+margin-left: 74rem;
+margin-top: 6.5rem;
+cursor: pointer;
+ }
+ .facebook:hover {
+    background-color: crimson;
+ }
+.instagram {
+    margin-left: 77rem;
+    top: -15.5rem;
+    cursor: pointer;
+
+}
+.poxi {
+    margin-top: -1.5%;
+}
+.instagram:hover {
+    background-color: crimson;
+ }
+.twiter{
+    margin-left: 80rem;
+    top: -15.5rem;
+    cursor: pointer;
+
+}
+.poxit {
+    margin-top: -1.4%;
+}
+.twiter:hover {
+    background-color: crimson;
+ }
+ /* End footer section  */
+
+   /* media query for tablet  */
+   @media only screen and (max-width:760px) {
+    #hero .hero {
+        background-color: #fff;
+      
+    }
+    #hero .Rectangle img{
+   
+        height: 710px;
+    width: 150%;
+    margin-left: -220px;
+    }
+    #hero .text-box h1  {
+        color: #000;
+        font-size: 85px;
+        position: absolute;
+     height: 176px;
+     left: 47.50%;
+     
+     top: 100px;
+     
+     font-style: normal;
+     font-weight: 900;
+     font-size: 70px;
+     line-height: 88px;
+     text-transform: uppercase;
+     }
+    #hero .text-box h1 span {
+        color: black;
+        margin-left: .5rem;
+        
+    }
+    #hero .grafh p {
+        position: absolute;
+    height: 160px;
+    left: 47.55%;
+    
+    top: calc(73% - 160px/2 - 130px);
+    
+    
+    
+    
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 40px;
+    
+    
+    
+    color: #444444;
+    }
+    #hero .button .btn {
+        position: absolute;
+    width: 250px;
+    height: 72px;
+    left: 43.40%;
+    top: 550px;
+    background-color: #151515;
+    color: #fff;
+    font-size: 32px;
+    margin-left: 2rem;
+    cursor: pointer;
+    border-radius: 3px;
+    }
+    #hero .button .btn:hover {
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+        background-color: #D5966C;
+    }
+    .heading {
+        position: absolute;
+    height: 120px;
+    left: 0%;
+    margin-left: 7%;
+    margin-top: 305px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 65px;
+    line-height: 68px;
+    
+    text-transform: uppercase;
+    color: #151515;
+    }
+    .wander {
+        position: absolute;
+    height: 128px;
+    left: 0%;
+    margin-left: 7.5%;
+    margin-top: 63.2%;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 32px;
+    color: #444444;
+    }
+    .living {
+        position: absolute;
+        width: 370px;
+        height: 400px;
+        left: 350px;
+        top: 960px;
+    }
+    .coc {
+        position: absolute;
+        width: 310px;
+        height: 720px;
+        left: 39px;
+        top: 1371px;
+    }
+    .joke {
+        position: absolute;
+        width: 370px;
+        height: 313px;
+        left: 350px;
+        top: 1372px;
+    }
+    
+.bg-color {
+
+    position: absolute;
+    width: 370px;
+    height: 396px;
+    left: 350px;
+    top: 1690px;
+    
+    /* Almost Black */
+    
+    background: #151515;
+}
+.inspire {
+    position: absolute;
+height: 120px;
+left: 0%;
+margin-top: 4.1rem;
+margin-left: 4rem;
+font-style: normal;
+font-weight: 900;
+font-size: 55px;
+line-height: 60px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+
+.excited {
+    position: absolute;
+height: 96px;
+left: 0%;
+margin-left: 4rem;
+margin-top: 12.5rem;
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 32px;
+color: #FFFFFF;
+}
+.bg-black {
+    position: absolute;
+    width: 720px;
+    height: 216px;
+    left: 0px;
+    top: 2271px;
+    
+    /* Almost Black */
+    
+    background: #151515;
+ }
+ .modren {
+    position: absolute;
+    left: 0%;
+    left: -130px;
+   font-size: 35px;
+    bottom: 61.54%;
+    
+    /* White */
+    
+    background: #FFFFFF;
+ }
+ .king {
+    position: absolute;
+height: 84px;
+left: 32.1%;
+margin-top: 4.8rem;
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 28px;
+color: #FFFFFF;
+
+ }
+ .facebook {
+    margin-left: 33rem;
+    margin-top: 6.2rem;
+    cursor: pointer;
+     }
+     .facebook:hover {
+        background-color: crimson;
+     }
+    .instagram {
+        margin-left: 35.8rem;
+        top: -15.5rem;
+        cursor: pointer;
+    
+    }
+    .poxi {
+        margin-top: -3%;
+    }
+    .poxit.instagram:hover {
+        background-color: crimson;
+     }
+    .twiter{
+        margin-left: 38.7rem;
+        top: -15.5rem;
+        cursor: pointer;
+    
+    }
+    .poxit {
+        margin-top: -2.8%;
+    }
+    .poxit.twiter:hover {
+        background-color: crimson;
+     }
+   }
+   
+   /* End media query for tablet  */
+
+   
+   /* media query for mobile  */
+   @media only screen and (max-width:760px) {
+    #hero .hero {
+        background-color: #fff;
+      
+    }
+    #hero .Rectangle img{
+   
+        height: 710px;
+    width: 150%;
+    margin-left: -220px;
+    }
+    #hero .text-box h1  {
+        color: #000;
+        font-size: 85px;
+        position: absolute;
+     height: 176px;
+     left: 47.50%;
+     
+     top: 100px;
+     
+     font-style: normal;
+     font-weight: 900;
+     font-size: 70px;
+     line-height: 88px;
+     text-transform: uppercase;
+     }
+    #hero .text-box h1 span {
+        color: black;
+        margin-left: .5rem;
+        
+    }
+    #hero .grafh p {
+        position: absolute;
+    height: 160px;
+    left: 47.55%;
+    
+    top: calc(73% - 160px/2 - 130px);
+    
+    
+    
+    
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 40px;
+    
+    
+    
+    color: #444444;
+    }
+    #hero .button .btn {
+        position: absolute;
+    width: 250px;
+    height: 72px;
+    left: 43.40%;
+    top: 550px;
+    background-color: #151515;
+    color: #fff;
+    font-size: 32px;
+    margin-left: 2rem;
+    cursor: pointer;
+    border-radius: 3px;
+    }
+    #hero .button .btn:hover {
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+        background-color: #D5966C;
+    }
+    .heading {
+        position: absolute;
+    height: 120px;
+    left: 0%;
+    margin-left: 7%;
+    margin-top: 305px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 65px;
+    line-height: 68px;
+    
+    text-transform: uppercase;
+    color: #151515;
+    }
+    .wander {
+        position: absolute;
+    height: 128px;
+    left: 0%;
+    margin-left: 7.5%;
+    margin-top: 63.2%;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 32px;
+    color: #444444;
+    }
+    .living {
+        position: absolute;
+        width: 370px;
+        height: 400px;
+        left: 350px;
+        top: 960px;
+    }
+    .coc {
+        position: absolute;
+        width: 310px;
+        height: 720px;
+        left: 39px;
+        top: 1371px;
+    }
+    .joke {
+        position: absolute;
+        width: 370px;
+        height: 313px;
+        left: 350px;
+        top: 1372px;
+    }
+    
+.bg-color {
+
+    position: absolute;
+    width: 370px;
+    height: 396px;
+    left: 350px;
+    top: 1690px;
+    
+    /* Almost Black */
+    
+    background: #151515;
+}
+.inspire {
+    position: absolute;
+height: 120px;
+left: 0%;
+margin-top: 4.1rem;
+margin-left: 4rem;
+font-style: normal;
+font-weight: 900;
+font-size: 55px;
+line-height: 60px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+
+.excited {
+    position: absolute;
+height: 96px;
+left: 0%;
+margin-left: 4rem;
+margin-top: 12.5rem;
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 32px;
+color: #FFFFFF;
+}
+.bg-black {
+    position: absolute;
+    width: 720px;
+    height: 216px;
+    left: 0px;
+    top: 2271px;
+    
+    /* Almost Black */
+    
+    background: #151515;
+ }
+ .modren {
+    position: absolute;
+    left: 0%;
+    left: -130px;
+   font-size: 35px;
+    bottom: 61.54%;
+    
+    /* White */
+    
+    background: #FFFFFF;
+ }
+ .king {
+    position: absolute;
+height: 84px;
+left: 32.1%;
+margin-top: 4.8rem;
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 28px;
+color: #FFFFFF;
+
+ }
+ .facebook {
+    margin-left: 33rem;
+    margin-top: 6.2rem;
+    cursor: pointer;
+     }
+     .facebook:hover {
+        background-color: crimson;
+     }
+    .instagram {
+        margin-left: 35.8rem;
+        top: -15.5rem;
+        cursor: pointer;
+    
+    }
+    .poxi {
+        margin-top: -3%;
+    }
+    .poxit.instagram:hover {
+        background-color: crimson;
+     }
+    .twiter{
+        margin-left: 38.7rem;
+        top: -15.5rem;
+        cursor: pointer;
+    
+    }
+    .poxit {
+        margin-top: -2.8%;
+    }
+    .poxit.twiter:hover {
+        background-color: crimson;
+     }
+   }
+   
+   /* End media query for mobile  */
