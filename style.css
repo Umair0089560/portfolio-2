@@ -473,30 +473,31 @@ color: #FFFFFF;
 
    
    /* media query for mobile  */
-   @media only screen and (min-width:50em) {
+   @media only screen and (max-width: 425px) {
     #hero .hero {
         background-color: #fff;
       
     }
     #hero .Rectangle img{
    
-        height: 710px;
-    width: 00%;
-    margin-left: -220px;
+        height: 500px;
+    width: 475%;
+
+
     }
     #hero .text-box h1  {
         color: #000;
         font-size: 85px;
         position: absolute;
      height: 176px;
-     left: 47.50%;
+     left: 10.50%;
      
-     top: 100px;
+     top: 550px;
      
      font-style: normal;
      font-weight: 900;
-     font-size: 70px;
-     line-height: 88px;
+     font-size: 100px;
+     line-height: 110px;
      text-transform: uppercase;
      }
     #hero .text-box h1 span {
@@ -507,9 +508,9 @@ color: #FFFFFF;
     #hero .grafh p {
         position: absolute;
     height: 160px;
-    left: 47.55%;
+    left: 10.55%;
     
-    top: calc(73% - 160px/2 - 130px);
+    top: calc(145% - 160px/2 - 130px);
     
     
     
@@ -527,8 +528,8 @@ color: #FFFFFF;
         position: absolute;
     width: 250px;
     height: 72px;
-    left: 43.40%;
-    top: 550px;
+    left: 4.40%;
+    top: 1035px;
     background-color: #151515;
     color: #fff;
     font-size: 32px;
@@ -541,70 +542,83 @@ color: #FFFFFF;
         background-color: #D5966C;
     }
     .heading {
-        position: absolute;
-    height: 120px;
-    left: 0%;
-    margin-left: 7%;
-    margin-top: 305px;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 65px;
-    line-height: 68px;
-    
-    text-transform: uppercase;
-    color: #151515;
+        height: 90px;
+        left: 0%;
+        right: 0%;
+        top: calc(190% - 90px/2 - 66.5px);
+        
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 80px;
+        line-height: 85px;
+        /* or 90% */
+        
+        text-transform: uppercase;
+        
+        /* Almost Black */
+        
+        color: #151515;
     }
     .wander {
         position: absolute;
-    height: 128px;
-    left: 0%;
-    margin-left: 7.5%;
-    margin-top: 63.2%;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 25px;
-    line-height: 32px;
-    color: #444444;
+        height: 112px;
+        left: 0%;
+        right: 0%;
+        top: calc(200% - 112px/2 + 55.5px);
+        
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 28px;
+        /* or 156% */
+        
+        
+        /* Dark Grey */
+        
+        color: #444444;
     }
     .living {
         position: absolute;
-        width: 370px;
-        height: 400px;
-        left: 350px;
-        top: 960px;
+        width: 455px;
+        height: 320px;
+        left: 16px;
+        top: 1180px;
+        
     }
     .coc {
         position: absolute;
-        width: 310px;
-        height: 720px;
-        left: 39px;
-        top: 1371px;
+        width: 455px;
+        height: 480px;
+        left: 16px;
+        top: 1850px;
     }
     .joke {
         position: absolute;
-        width: 370px;
-        height: 313px;
-        left: 350px;
-        top: 1372px;
+        width: 450px;
+        height: 230px;
+        left: 18px;
+        top: 2346px;
     }
     
 .bg-color {
 
     position: absolute;
-    width: 370px;
-    height: 396px;
-    left: 350px;
-    top: 1690px;
-    
-    /* Almost Black */
-    
-    background: #151515;
+width: 453px;
+height: 293px;
+left: 16px;
+top: 2592px;
+
+/* Almost Black */
+
+background: #151515;
 }
 .inspire {
     position: absolute;
 height: 120px;
 left: 0%;
-margin-top: 4.1rem;
+margin-top: 2.1rem;
 margin-left: 4rem;
 font-style: normal;
 font-weight: 900;
@@ -620,7 +634,7 @@ color: #FFFFFF;
 height: 96px;
 left: 0%;
 margin-left: 4rem;
-margin-top: 12.5rem;
+margin-top: 10.5rem;
 font-style: normal;
 font-weight: 300;
 font-size: 22px;
@@ -629,66 +643,68 @@ color: #FFFFFF;
 }
 .bg-black {
     position: absolute;
-    width: 720px;
+    width: 450px;
     height: 216px;
-    left: 0px;
-    top: 2271px;
+    left: 17px;
+    top: 2899px;
+    padding-left: 2px;
+    padding-bottom: 210px;
     
     /* Almost Black */
     
     background: #151515;
  }
  .modren {
-    position: absolute;
-    left: 0%;
-    left: -130px;
-   font-size: 35px;
-    bottom: 61.54%;
-    
-    /* White */
-    
-    background: #FFFFFF;
+   position: absolute;
+left: -25%;
+right: 50.61%;
+top: 0%;
+bottom: 83.33%;
+
+/* White */
+
+background: #FFFFFF;
  }
  .king {
     position: absolute;
 height: 84px;
-left: 32.1%;
-margin-top: 4.8rem;
+left: 10.1%;
+margin-top: 12.8rem;
 font-style: normal;
 font-weight: 300;
-font-size: 17px;
+font-size: 20px;
 line-height: 28px;
 color: #FFFFFF;
 
  }
  .facebook {
-    margin-left: 33rem;
-    margin-top: 6.2rem;
+    margin-left: 2.7rem;
+    margin-top: 21.2rem;
     cursor: pointer;
      }
      .facebook:hover {
         background-color: crimson;
      }
     .instagram {
-        margin-left: 35.8rem;
+        margin-left: 5.55rem;
         top: -15.5rem;
         cursor: pointer;
     
     }
     .poxi {
-        margin-top: -3%;
+        margin-top: -5.1%;
     }
     .poxit.instagram:hover {
         background-color: crimson;
      }
     .twiter{
-        margin-left: 38.7rem;
+        margin-left: 8.4rem;
         top: -15.5rem;
         cursor: pointer;
     
     }
     .poxit {
-        margin-top: -2.8%;
+        margin-top: -4.9%;
     }
     .poxit.twiter:hover {
         background-color: crimson;
@@ -696,3 +712,73 @@ color: #FFFFFF;
    }
    
    /* End media query for mobile  */
+
+   /* location section  */
+   
+   .map {
+    position: absolute;
+width: 100%;
+height: 715px;
+left: 0px;
+top: 0px;
+
+
+   }
+   .back-color {
+    position: absolute;
+width: 100%;
+height: 548px;
+left: 0px;
+top: 716px;
+
+/* Almost Black */
+
+background: #151515;
+   }
+.location-heading {
+    position: absolute;
+height: 140px;
+left: 11%;
+
+top: calc(50% - 140px/2 - 88px);
+
+/* Heading (L) */
+
+font-style: normal;
+font-weight: 900;
+font-size: 50px;
+line-height: 98px;
+/* or 100% */
+
+text-transform: uppercase;
+
+/* White */
+
+color: #FFFFFF;
+
+}
+.gold {
+    position: absolute;
+height: 36px;
+left: 65%;
+
+top: calc(37% - 36px/2 - 60px);
+
+/* Heading (S) */
+
+font-family: 'Big Shoulders Display';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 36px;
+/* identical to box height, or 100% */
+
+text-transform: uppercase;
+
+/* Gold */
+
+color: #D5966C;
+
+}
+
+   /* End location section  */
